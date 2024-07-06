@@ -1,0 +1,216 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+}
+body,html{
+    overflow-x: hidden;
+}
+.left-side{
+    width:300px;
+    height: 100vh;
+    background-color: rgb(149, 220, 234);
+    padding: 40px 20px;
+    position: fixed;
+    left:0;
+}
+.left-side .img{
+    width: 180px;
+    margin: 0 auto;
+}
+.left-side .img img{
+    width: 100%;
+    border-radius: 50%;
+    background-color: white;
+}
+.left-side .name{
+    font-size: 2rem;
+    margin-top: 5px;
+    font-family: monospace;
+    text-align: center;
+    font-weight: 600;
+}
+.left-side .para{
+    font-size: 20px;
+    text-align: center;
+}
+.left-side nav{
+    padding: 20px;
+}
+.left-side nav ul{
+    list-style: none;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.left-side nav ul li {
+    padding: 10px;
+    text-transform: uppercase;
+}
+.left-side nav ul li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    opacity: 0.8;
+}
+.left-side nav ul li a:hover {
+    text-decoration: underline;
+    opacity: 1;
+}
+
+.main{
+    width: calc(100% - 300px);
+    position: absolute;
+    left: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+    padding: 40px;
+    gap: 30%;
+    bottom: 50px;
+    right: 0;
+}
+.main-text{
+    width: 50%;
+    margin-top: 10%;
+}
+
+.main-text h1{
+    font-size: 2rem;
+    margin-bottom: 3px;
+}
+.main-text p{
+    padding: 3px;
+    font-size: 20px;
+}
+
+.main-text button{
+    margin: 40px 0;
+    padding: 20px;
+    border-radius: 10px;
+    border: 0;
+    font-size: 20px;
+}
+.main-text button:hover{
+    border: 2px solid black;
+
+}
+.main-img{
+    width: 50%;
+    margin-top: 12%;
+}
+.main-img img{
+    width: 200px;
+    height: 200px;
+}
+.skills{
+    width: calc(100% - 300px);
+    position: absolute;
+    left: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    top: 500px;
+    gap: 30px;
+    right: 0;
+}
+.skills .box-1,.box-2,.box-3,.box-4{
+    border-radius: 60%;
+    border: 5px solid black;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    padding: 60px 0;
+}
+.skills .box-1 p,.box-2 p,.box-3 p,.box-4 p{
+    font-weight:bold;
+    font-size: 20px;
+    font-family: monospace;
+}
+
+.footer{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.project{
+    width: calc(100% - 300px);
+    position: absolute;
+    left: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    gap: 30px;
+    top: 1000px;
+    right: 0;
+}
+
+.project .pr1,.pr2{
+    padding: 70px;
+    width: 300px;
+    height: 300px;
+    border: 10px solid black;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 10px;
+
+}
+.project .pr1 img{
+    height: 70%;
+    margin: 0 auto;
+}
+.project .pr2 img{
+    height: 50%;
+    margin: 0 auto;
+}
+.project .pr1 button,.pr2 button{
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.project .pr1 button a,.pr2 button a{
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+}
+
+.contact{
+    width: calc(100% - 300px);
+    position: absolute;
+    left: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    gap: 30px;
+    top: 1500px;
+}
+.contact h2{
+    font-size: 40px;
+    text-decoration: underline;
+}
+.contact p{
+    font-size: 30px;
+}
+.contact button{
+    padding: 15px;
+    border-radius: 5px;
+    border: 0;
+}
+.contact button a{
+   text-decoration: none;
+   color: black;
+}
+.contact button:hover{
+    border: 2px solid black;
+}
