@@ -16,6 +16,7 @@ body{
     align-items: center;
     color: white;
     padding: 50px;
+    flex-wrap: wrap;
 }
 
 .nav-bar .logo{
@@ -38,6 +39,7 @@ body{
     display: flex;
     flex-direction: row;
     gap: 30px;
+    
 }
 
 .nav-bar .nav ul li{
@@ -92,6 +94,7 @@ body{
     align-content: center;
     gap: 100px;
     margin-top: 10%;
+    flex-wrap: wrap;
 }
 
 .about .text {
@@ -153,6 +156,7 @@ body{
     align-items: center;
     gap: 40px;
     margin-top: 20px;
+    flex-wrap: wrap;
 }
 
 .products .p-1, .p-2, .p-3 {
@@ -189,6 +193,7 @@ body{
     display: flex; 
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 .pr-4 img{
     height:20px;
