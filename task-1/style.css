@@ -96,6 +96,11 @@ body,html{
     border: 0;
     font-size: 20px;
 }
+.main-text button a{
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+}
 .main-text button:hover{
     border: 2px solid black;
 
@@ -152,6 +157,7 @@ body,html{
     gap: 30px;
     top: 1000px;
     right: 0;
+    flex-wrap:wrap;
 }
 
 .project .pr1,.pr2{
@@ -194,6 +200,7 @@ body,html{
     height: 100vh;
     gap: 30px;
     top: 1500px;
+    flex-wrap:wrap;
 }
 .contact h2{
     font-size: 40px;
